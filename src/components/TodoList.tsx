@@ -12,7 +12,7 @@ export const TodoList = () => {
 
   return (
     <>
-      <h1>Minhas Tarefas</h1>
+      <h2>Minhas Tarefas</h2>
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>{todo.text}</li>
